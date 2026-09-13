@@ -8,7 +8,7 @@ Dot product works by going through two lists together, position by position. It 
 What does matrix times vector do?
 Matrix times vector takes in a matrix (a list containing lists of integers) and a vector (a list of integers). It performs the dot product of the first row of the matrix with the vector and appends that result to a new list. It then repeats this for every row of the matrix, and returns the new list. For this to work, the number of columns in the matrix must equal the size of the vector.
 
-My reflection on why NumPy exists
+My reflection on why NumPy exists:
 NumPy exists to make working with data shaped like vectors and matrices much faster and simpler. Instead of writing a function every time you need to add vectors, take a dot product, or multiply matrices, NumPy has these built in. Each one becomes a single operation (+, np.dot, @) instead of several lines of looping.
 
 My hand-written loops are fine for three numbers, but if each vector held a million numbers, a plain Python loop would be extremely slow, while NumPy handles it almost instantly. 
