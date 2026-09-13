@@ -14,3 +14,5 @@ NumPy exists to make working with data shaped like vectors and matrices much fas
 My hand-written loops are fine for three numbers, but if each vector held a million numbers, a plain Python loop would be extremely slow, while NumPy handles it almost instantly. 
 
 The benefit of building it from scratch allows you to see what is going on behind the scenes, but once you understand that, using NumPy lets you do the same work more efficiently with far less code.
+
+Blog: the dot product explained - https://dev.to/ljgeorgiou/linear-algebra-explained-simply-how-to-calculate-the-dot-product-4ohb
